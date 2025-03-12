@@ -153,13 +153,27 @@ input, textarea {
     color: white;
 }
 
-
 #menu-toggle {
     display: none;
     font-size: 2em;
     cursor: pointer;
     color: white;
 }
+
+
+.arrow {
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    position: relative;
+    animation: bounce 0.6s infinite alternate ease-in-out;
+}
+
+@keyframes bounce {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(10px); }
+}
+
 
 @keyframes fadeIn {
     from { opacity: 0; }
