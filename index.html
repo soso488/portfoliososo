@@ -7,10 +7,11 @@
     <link rel="icon" type="image/x-icon" href="/image/DALL·E-2024-09-17-13.05.jpg">
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <header>
+<body class="mat">
+    <header class="matrix">
     <div class="logo"><img src="/image/DALL·E-2024-09-17-13.05.jpg" alt="logo"></div>
     <div id="menu-toggle">☰</div>
+
     <nav>
         <ul id="nav-menu">
             <li><a href="index.html">Accueil</a></li>
@@ -22,11 +23,14 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+    
 </header>
-    <section>
-        <h1>Bienvenue sur mon Portfolio</h1>
-        <p>Découvrez mon parcours et mes compétences en développement web.</p>
-    </section>
+
+<div id="matrixContainer">
+        <canvas id="matrixCanvas"></canvas>
+</div> 
+
+    
     <script src="script.js"></script>
 </body>
 </html>
