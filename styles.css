@@ -143,12 +143,6 @@ button:hover {
     transform: scale(1.1);
 }
 
-form {
-    display: flex;
-    flex-direction: column;
-    max-width: 400px;
-    margin: auto;
-}
 
 input, textarea {
     padding: 10px;
