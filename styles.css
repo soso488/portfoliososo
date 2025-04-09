@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -26,12 +26,13 @@ header {
     font-weight: bold;
 }
 
-.cv{
+.cv {
     text-align: center;
 }
+
 .iconCV {
-    width: 40px;  
-    height: 40px; 
+    width: 40px;
+    height: 40px;
 }
 
 .logo img {
@@ -176,14 +177,24 @@ input, textarea {
 }
 
 @keyframes bounce {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(10px); }
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(10px);
+    }
 }
 
 
 @keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }
 
 @media screen and (max-width: 1128px) {
@@ -206,10 +217,9 @@ input, textarea {
         display: flex;
     }
 }
+
+
 /* css contact */
-
-
-
 
 button, input {
     font-family: 'Montserrat', sans-serif;
