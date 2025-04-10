@@ -224,7 +224,7 @@ input, textarea {
     border: 1px solid #203a43;
     padding: 15px;
     border-radius: 10px;
-    background-color:#203a43;
+    background-color: #203a43;
 }
 
 /* Optionnel : styles spécifiques */
@@ -463,3 +463,103 @@ button, input {
         padding: 0;
     }
 }
+
+/* social */
+.social-media-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.social-media-list a {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #1b1b1b;
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-media-list a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    box-shadow: 0 0 0 1px #fff;
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.social-media-list a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.social-media-list a:hover::after {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.social-media-list svg {
+    width: 20px;
+    height: 20px;
+}
+
+hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border:
+        0;
+    border-top-width: 0px;
+    border-top-style: none;
+    border-top-color: currentcolor;
+    border-right-color: currentcolor;
+    border-bottom-color: currentcolor;
+    border-left-color: currentcolor;
+    border-top:
+        1px solid #eee;
+    border-color:#2c5364;
+}
+
+.social {
+    margin-top: 55px;
+}
+/* Responsive */
+@media screen and (max-width: 850px) {
+    .social-media-list a {
+        height: 60px;
+        width: 60px;
+    }
+
+    .social-media-list svg {
+        width: 28px;
+        height: 28px;
+    }
+}
+
+@media screen and (max-width: 569px) {
+    .social-media-list a {
+        height: 55px;
+        width: 55px;
+    }
+
+    .social-media-list svg {
+        width: 26px;
+        height: 26px;
+    }
+}
+
+/* compétence */
+
