@@ -212,6 +212,30 @@ input, textarea {
     }
 }
 
+.options {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+}
+
+.sisr-block, .slam-block {
+    flex: 1;
+    border: 1px solid #203a43;
+    padding: 15px;
+    border-radius: 10px;
+    background-color:#203a43;
+}
+
+/* Optionnel : styles spécifiques */
+.sisr {
+    color: #1e90ff;
+}
+
+.slam {
+    color: #28a745;
+}
+
 
 /* css contact */
 
@@ -223,7 +247,7 @@ button, input {
 
 .background {
     display: flex;
-    min-height: 100vh;
+    min-height: 80vh;
 }
 
 .container {
