@@ -26,7 +26,10 @@ header {
     background: #1b2838;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative; /* nécessaire pour que z-index fonctionne */
+    z-index: 1001;
 }
+
 
 .logo {
     font-size: 24px;
